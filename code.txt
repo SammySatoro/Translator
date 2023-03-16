@@ -1,0 +1,7 @@
+// Define a function to calculate the area of a rectangle
+function calculateRectangleArea($length, $width) {
+  return $length * $width;
+}
+// Call the function and output the result
+$area = calculateRectangleArea(5, 10);
+echo "The area of the rectangle is: " . $area;
